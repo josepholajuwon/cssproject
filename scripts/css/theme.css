@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+/*Set CSS Variables using :root*/
+/*
+*contained are font templates
+font-family: 'Work Sans', sans-serif; ( for header)
+*/
+:root{
+    --default-green: #00c3a5;
+    --default-ash: #ababab;
+    --white: #f6f6f6;
+    --ascent-color-1: #1b2734;
+    --color-primary: #5190e2;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: var(--default-green);
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    color: #7c7b7b;
+}
+.header-section{
+    padding: 15px 80px;
+    box-shadow: 3px 10px 37px -11px rgba(0,0,0,0.4);
+-webkit-box-shadow: 3px 10px 37px -11px rgba(0,0,0,0.4);
+-moz-box-shadow: 3px 10px 37px -11px rgba(0,0,0,0.4);
+}
+.nav-list{
+    display: inline-flex;
+    color: var(--default-ash);
+    float: right;
+}
+.nav-link{
+    color: var(--default-ash);
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.active{
+    color: var(--default-green);
+
+}
+.hero-section{
+    padding: 50px;
+}
+.image{
+    margin:auto;
+    width: 100px;
+    height: 100px;
+}
+.heroh1{
+    margin: 20px 20px 35px 20px;
+}
+#main{
+    width: 80%;
+    margin: auto;
+}
+.patients{
+    background-color: var(--default-green);
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 200px;
+}
+.doctors{
+    background-color: var(--color-primary);
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 200px;
+}
+.clinics{
+    background-color: var(--ascent-color-1);
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 200px;
+}
+.icon{
+    color: #f6f6f6;
+    font-size: 15pt;
+    margin-bottom: 10px;
+}
+.icon-text{
+    font-size: 19pt;
+    line-height-step: 10px;
+    color: #f6f6f6;
+    margin-bottom: 60px;
+}
+.icon-heading{
+    font-size: 24pt;
+}
+.section-select{
+    border: none;
+    background-color: #1b273404;
+    color: #f6f6f6;
+    width: 100%;
+    font-size: 14pt;
+}
+.jso{
+    background-color: #00c3a5;
+    color: #f6f6f6;
+}
+.partners{
+    padding: 50px 0px;
+}
+.p-logo{
+    margin: 10px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.partners-heading, .why-heading, .branch-header, .cta-heading{
+    font-size: 24pt;
+    color: #00c3a5;
+    line-height: 37px;
+}
+.why-us{
+    background-color: #cafff8;
+    min-height: 200px;
+    background-size: cover;
+    padding: 10px 5px 20px 5px;
+}
+.why-head{
+    padding: 50px;
+    background-image: url(/asset/images/bg.png);
+    background-size: cover;
+    background-position-y: center;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    row-gap: 2;
+}
+.why-box{
+    background-color: #f6f6f6;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    min-width: 200px;    
+    border: solid #00c3a633 0.5px;
+
+}
+.why-icon{
+    color: #00c3a5;
+    font-size: 30pt;
+}
+.why-sub-head{
+    font-size: 20pt;
+    line-height: 37px;
+    color: #038874;
+}
+.branch-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.branches{
+    padding: 100px 50px;
+}
+.branch-col{
+    border-radius: 10px;
+    border: solid #00c3a633 0.5px;
+    padding: 10px;
+    width: auto;
+    margin: 10px;
+}
+.branch-col:hover{
+    box-shadow: -3px 26px 110px -50px rgba(0,0,0,0.4);
+-webkit-box-shadow: -3px 26px 110px -50px rgba(0,0,0,0.4);
+-moz-box-shadow: -3px 26px 110px -50px rgba(0,0,0,0.4);
+}
+.branch-image{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.branch-btn{
+    float: right;
+}
+.branch-real-btn{
+    background-color: #3d83de;
+    color: #f6f6f6;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 7pt;
+}
+.branch-real-btn:hover{
+    background-color: #1f57a0;
+}
+.cta{
+    text-align: center;
+    padding: 50px 50px;
+    margin-bottom: 40px;
+}
+.cta-heading{
+    color: #1b2734;
+}
+.cta-btn{
+    background-color: #3d83de;
+    color: #f6f6f6;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer{
+    padding: 20px;
+    border-top: #00c3a633 solid 0.9px;
+    text-align: center;
+}
+.footer-text{
+    padding: 5px 150px;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
